@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Semaphore</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="nav">
+        <div>
+          <div class="name"><a href="../../index.html">HOME</a></div>
+          <div class="logo">VIRTUAL LAB</div>
+          
+        </div>
+      </div>
+    <div class="container">
+        <br>
+        <h1 class="heading">Binary Semaphore</h1>
+        <div class="subheadings">
+            <h2>Aim</h2>
+            <p>Our aim is to show the implementation of binary semaphore as to how it helps in critical section management
+              for given processes.
+            </p>
+            
+            <h2>Introduction</h2>
+            <p> Semaphores are one of the easiest and best process synchronization mechanisms founded by Dijkstra in the mid-’90s.
+              Binary Semaphore provides mutual synchronization between the processes in an operating system. It has an integer range of values from 0 to 1. 
+
+              Basically, Binary Semaphores have two operations namely wait(P) and signal(V) operations. Both operations are atomic. Semaphore(s) can be initialized to zero or one. 
+              Here atomic means that the variable on which read, modify, and update happens at the same time/moment with no pre-emption.
+              Semaphores basically are used to implement critical sections in code. Critical sections are regions where only one process 
+              can execute at once. There are some advantages and disadvantages of binary semaphores as well.</p>
+            
+            <h2>Procedure</h2>
+            <p>Here are the steps to implement the binary semaphore for the virtual lab:
+                <ol>
+                    <li>Select the number of processes you want to perform the algorithm on by adding the desired amount.</li>
+                    <li>After that, all you have to do is select the process you want to enter in critical section.</li>
+                    
+                </ol>
+                <br><strong>NOTE: Do remember, as we are performing binary semaphore, the default value will be 1.
+                  If it were zero, no operation will enter critical section.
+                </strong>>
+            </p>
+            
+            <h2>Applications</h2>
+            <p>Using semaphores only one process can enter into a critical section. This process is also known as a mutual exclusion principle.<br>
+              Mostly semaphores are machine independent which means that irrespective of the platform they can execute anytime and anywhere.
+              </p>
+        </div>
+        <a href="algo/index.html" class="button">Execute</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bankers Algorithm</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="nav">
+        <div>
+          <div class="name"><a href="../../index.html">HOME</a></div>
+          <div class="logo">VIRTUAL LAB</div>
+          
+        </div>
+      </div>
+    <div class="container">
+        <br>
+        <h1 class="heading">Bankers Algorithm</h1>
+        <div class="subheadings">
+            <h2>Aim</h2>
+            <p>Our aim is to show the implementation of Bankers Algorithm, which is one of the
+                widely known methods for deadlock prevention
+            </p>
+            
+            <h2>Introduction</h2>
+            <p> Banker's algorithm is a resource allocation and deadlock avoidance algorithm developed by Edsger Dijkstra that tests for safety by
+                simulating the allocation of predetermined maximum possible amounts of all resources, and then makes an "s-state" check to 
+                test for possible deadlock conditions for all other pending activities, before deciding whether allocation should be allowed to continue.
+                The algorithm was developed in the design process for the THE operating system and originally described (in Dutch) in EWD108.
+                <br><br>
+                When a new process enters a system, it must declare the maximum number of instances of each resource type that it may ever claim; clearly, that
+                number may not exceed the total number of resources in the system. Also, when a process gets all its requested resources it must return them
+                in a finite amount of time.</p>
+            
+            <h2>Procedure</h2>
+            <p>Here are the steps to implement the Bankers ALgorithm for the virtual lab:
+                <ol>
+                    <li>Select the number of processes you want to perform the algorithm on by adding the desired amount.</li>
+                    <li>Allocate the resources, set the maximum need and the number of non-allocated resources accordingly.</li>
+                    <li>When all set, just click the submit button to execute the algorithm.</li>
+                    <li>Depending on the availability and the need of resources, you can have 2 types of output:
+                        <ul>
+                            <li>If sufficient, we will have the order in which the processes execute as our output.</li>
+                            <li>If not, we will be presented with "DeadLock!" on our screen.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </p>
+            
+            <h2>Applications</h2>
+            <p>The Banker's algorithm derives its name from the fact that this algorithm could be used in a banking system to ensure that 
+                the bank does not run out of resources, because the bank would never allocate its money in such a way that it can no 
+                 longer satisfy the needs of all its customers.[2] By using the Banker's algorithm, the bank ensures that when customers 
+                 request money the bank never leaves a safe state. If the customer's request does not cause the bank to leave a safe state, 
+                the cash will be allocated, otherwise the customer must wait until some other customer deposits enough./p>
+        </div>
+        <a href="algo/BankersDyn.html" class="button">Execute</a>
+    </div>
+</body>
+</html>

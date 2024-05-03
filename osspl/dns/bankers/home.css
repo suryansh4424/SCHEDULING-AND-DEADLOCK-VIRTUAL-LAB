@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.nav {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    width: 80%;
+  }
+  
+  .nav > div > .name {
+    font-size: 18px;
+    letter-spacing: 3px;
+    width: 20%;
+  }
+  
+  .nav > div > .name > a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav > div > .logo {
+    font-family: "Chonburi", cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    color: green;
+    text-align: center; /* Centering the main heading */
+    border-bottom: 2px solid green; /* Adding underline to main heading */
+    padding-bottom: 10px;
+    padding-top: 50px;
+    position: relative; /* Adding relative position */
+    z-index: 1; 
+}
+
+.subheadings {
+    text-align: left;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px dashed #ccc; /* Adding underline to subheadings */
+    padding-bottom: 5px; /* Adjust space between headings and content */
+    margin-bottom: 20px; /* Increase space between sections */
+}
+
+*{
+    color: #666;
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+

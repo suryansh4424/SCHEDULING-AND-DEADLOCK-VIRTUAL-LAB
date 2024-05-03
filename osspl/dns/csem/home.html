@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counting Semaphore</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="nav">
+        <div>
+          <div class="name"><a href="../../index.html">HOME</a></div>
+          <div class="logo">VIRTUAL LAB</div>
+          
+        </div>
+      </div>
+    <div class="container">
+        <br>
+        <h1 class="heading">Counting Semaphore</h1>
+        <div class="subheadings">
+            <h2>Aim</h2>
+            <p>Our aim is to show the implementation of counting semaphore as to how it helps in critical section management
+              for given processes.
+            </p>
+            
+            <h2>Introduction</h2>
+            <p>  Counting semaphore is a synchronization tool that is used in operating systems to control the access to shared resources. 
+                It is a type of semaphore that allows more than two processes to access the shared resource at the same time. 
+                A counting semaphore is represented by an integer value that can be incremented or decremented by the processes.
+                <br>
+                The key difference between binary and counting semaphores is that binary semaphores can only take on two values,
+                indicating either that a resource is available or unavailable, while counting semaphores can take on multiple values,
+                indicating the number of available resources.</p>
+            
+            <h2>Procedure</h2>
+            <p>Here are the steps to implement the counting semaphore for the virtual lab:
+                <ol>
+                    <li>Select the number of processes you want to perform the algorithm on by adding the desired amount.</li>
+                    <li>After that, all you have to do is select the process you want to enter in critical section.</li>
+                    
+                </ol>
+                <br><strong>NOTE: Set value greater than zero. It will accept all positive values.
+                  If it were zero, no operation will enter critical section.
+                </strong>
+            </p>
+            
+            <h2>Applications</h2>
+            <p>Using semaphores only one process can enter into a critical section. This process is also known as a mutual exclusion principle.<br>
+              Mostly semaphores are machine independent which means that irrespective of the platform they can execute anytime and anywhere.
+              </p>
+        </div>
+        <a href="algo/index.html" class="button">Execute</a>
+    </div>
+</body>
+</html>
